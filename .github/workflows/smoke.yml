@@ -15,4 +15,12 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMANAPIKEY }}
       - name: Run API tests
         run: |
-          postman collection run "17595103-a9815759-fcc7-49ec-85f4-2567e2e2c0a9" -e "17595103-013eb0eb-5065-4c86-aa88-8363e27ede08"
+          postman collection run "17595103-a9815759-fcc7-49ec-85f4-2567e2e2c0a9" -e "17595103-013eb0eb-5065-4c86-aa88-8363e27ede08" -r cli,json,junit,html
+
+      - name: 📊 Upload Artifact Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: postman-cli-reports
+          path: postman-cli-reports/
+          retention-days: 10
