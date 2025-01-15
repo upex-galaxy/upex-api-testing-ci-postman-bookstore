@@ -35,6 +35,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages #? the branch used for the GitHub Pages content.
-          destination_dir: smoke #? this is the directory inside the gh-pages branch where the report.html will be saved.
+          destination_dir: tests #? this is the directory inside the gh-pages branch where the report.html will be saved.
           publish_dir: postman-cli-reports/report.html #? the directory to be published.
           keep_files: true #? true is required to work properly
