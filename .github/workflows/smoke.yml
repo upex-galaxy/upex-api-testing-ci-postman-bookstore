@@ -19,7 +19,7 @@ jobs:
           -r cli,json,junit,html \
           --reporter-json-export postman-cli-reports/report.json \
           --reporter-junit-export postman-cli-reports/report.xml \
-          --reporter-html-export postman-cli-reports/report.html
+          --reporter-html-export postman-cli-reports/index.html
 
       - name: 📊 Upload Artifact Reports
         if: always()
