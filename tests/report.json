@@ -3,9 +3,9 @@
     "meta": {
       "collectionId": "a9815759-fcc7-49ec-85f4-2567e2e2c0a9",
       "collectionName": "Test Plan: Smoke",
-      "started": 1736908453782,
-      "completed": 1736908455028,
-      "duration": 1246
+      "started": 1736916393032,
+      "completed": 1736916394375,
+      "duration": 1343
     },
     "summary": {
       "iterations": {
@@ -31,10 +31,10 @@
         "skipped": 0
       },
       "timeStats": {
-        "responseAverage": 227.2,
-        "responseMin": 86,
-        "responseMax": 617,
-        "responseStandardDeviation": 196.39490828430357
+        "responseAverage": 247.2,
+        "responseMin": 98,
+        "responseMax": 689,
+        "responseStandardDeviation": 222.05801043871395
       }
     },
     "executions": [
@@ -80,7 +80,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "8d1f7b44-3bd0-44b7-b6f6-56c5faf96634",
+              "value": "08c07a2e-bc45-4470-9e13-8419c5353720",
               "system": true
             },
             {
@@ -126,7 +126,7 @@
           }
         },
         "response": {
-          "id": "49013bff-dc07-4f40-873e-e73b90f75942",
+          "id": "dba148fb-a35f-431d-a98b-ef6e0af1c3d4",
           "_details": {
             "name": "OK",
             "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
@@ -142,7 +142,7 @@
             },
             {
               "key": "Date",
-              "value": "Wed, 15 Jan 2025 02:34:14 GMT"
+              "value": "Wed, 15 Jan 2025 04:46:33 GMT"
             },
             {
               "key": "Content-Type",
@@ -540,7 +540,7 @@
             ]
           },
           "cookies": [],
-          "responseTime": 617,
+          "responseTime": 689,
           "responseSize": 369,
           "downloadedBytes": 369
         },
@@ -594,7 +594,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "e1bb08e1-bffc-459c-987d-cafb9d4ac301",
+              "value": "d6884ce6-276d-47fa-ae7f-56c06bdf7fd4",
               "system": true
             },
             {
@@ -626,7 +626,7 @@
           }
         },
         "response": {
-          "id": "76deb757-3a33-45cd-9f1c-a0b0fbaaa8d0",
+          "id": "08af2722-77ee-4db3-901a-db5b6d9277ca",
           "_details": {
             "name": "OK",
             "detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
@@ -642,7 +642,7 @@
             },
             {
               "key": "Date",
-              "value": "Wed, 15 Jan 2025 02:34:14 GMT"
+              "value": "Wed, 15 Jan 2025 04:46:33 GMT"
             },
             {
               "key": "Content-Type",
@@ -5185,7 +5185,7 @@
             ]
           },
           "cookies": [],
-          "responseTime": 86,
+          "responseTime": 98,
           "responseSize": 4514,
           "downloadedBytes": 4514
         },
@@ -5248,7 +5248,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "8297d5a1-e7b4-4c9d-aeb0-b19e95b32e26",
+              "value": "8818ba09-eaec-404d-b573-b257ee46e548",
               "system": true
             },
             {
@@ -5294,7 +5294,7 @@
           }
         },
         "response": {
-          "id": "a79c44fa-64a2-487a-beaf-37ef35a72335",
+          "id": "880f729e-3292-42b0-911b-a5ec8099f86a",
           "_details": {
             "name": "Unauthorized",
             "detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
@@ -5310,7 +5310,7 @@
             },
             {
               "key": "Date",
-              "value": "Wed, 15 Jan 2025 02:34:14 GMT"
+              "value": "Wed, 15 Jan 2025 04:46:34 GMT"
             },
             {
               "key": "Content-Type",
@@ -5381,7 +5381,7 @@
             ]
           },
           "cookies": [],
-          "responseTime": 160,
+          "responseTime": 169,
           "responseSize": 42,
           "downloadedBytes": 42
         },
@@ -5465,7 +5465,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "9769eda5-87b0-4ff7-b2d2-cc26397bec9a",
+              "value": "968d8aae-ee1a-44a3-b5df-ddfc975c2640",
               "system": true
             },
             {
@@ -5497,7 +5497,7 @@
           }
         },
         "response": {
-          "id": "e412d936-da8d-4b9a-bb69-f864afb0f4c8",
+          "id": "7f670f59-3173-486b-bb81-fed6fa0e93ec",
           "_details": {
             "name": "Unauthorized",
             "detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
@@ -5513,7 +5513,7 @@
             },
             {
               "key": "Date",
-              "value": "Wed, 15 Jan 2025 02:34:14 GMT"
+              "value": "Wed, 15 Jan 2025 04:46:34 GMT"
             },
             {
               "key": "Content-Type",
@@ -5645,7 +5645,7 @@
             ]
           },
           "cookies": [],
-          "responseTime": 138,
+          "responseTime": 139,
           "responseSize": 103,
           "downloadedBytes": 103
         },
@@ -5733,7 +5733,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "313d9f9a-ead7-4db6-bad5-1fe1b6bce12f",
+              "value": "44fc9516-1851-4261-8233-5579e69e678f",
               "system": true
             },
             {
@@ -5765,7 +5765,7 @@
           }
         },
         "response": {
-          "id": "d7926a54-3f7f-42cd-a3a5-702bbc50e03e",
+          "id": "75c44237-c30e-431c-b99e-c4fcfbb2477a",
           "_details": {
             "name": "Unauthorized",
             "detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
@@ -5781,7 +5781,7 @@
             },
             {
               "key": "Date",
-              "value": "Wed, 15 Jan 2025 02:34:14 GMT"
+              "value": "Wed, 15 Jan 2025 04:46:34 GMT"
             },
             {
               "key": "Content-Type",
@@ -5852,7 +5852,7 @@
             ]
           },
           "cookies": [],
-          "responseTime": 135,
+          "responseTime": 141,
           "responseSize": 42,
           "downloadedBytes": 42
         },
